@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className='page'>
         <div className='page__container'>
-            <header>
+            <header className='w-full h-20 flex'>
                 헤더
             </header>
         </div>
