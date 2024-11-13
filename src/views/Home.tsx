@@ -5,11 +5,11 @@ import {Header} from "@/components";
 
 function Home() {
   return (  
-    <div className="page">
+    <div className="page bg-stone-900">
         <Header/>
       <div className="page__container mt-20 w-full h-full flex">
         {/*상단 3개의 위젯 */}
-        <div className='w-full flex items-center gap-6'></div>
+        <div className='w-full flex items-center gap-6 justify-start'></div>
         {/*하단 2개의 위젯 */}
         <div className='w-full flex items-center gap-6'></div>
       </div>

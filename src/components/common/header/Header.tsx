@@ -15,10 +15,10 @@ export const Header = () => {
                 Weather.io
               </h3>
             </div>
-            <div>
+            
               {/* 검색창 영역 */}
               <SearchBar placeholder='검색할 지역 이름을 영어로 입력하세요.' className='flex-1 w-full'/>
-            </div>
+            
           </div>
         </header>
   );
