@@ -1,16 +1,19 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from "./views/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Provider } from "jotai";
 
+/** 페이지 */
+import HomePage from "./views/home/Home";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <Provider>
+            <BrowserRouter>
+                <Routes>
+                    <Route index path="/" element={<HomePage />}></Route>
+                </Routes>
+            </BrowserRouter>
+        </Provider>
+    );
 }
 
 export default App;
