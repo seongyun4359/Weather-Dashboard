@@ -73,7 +73,7 @@ function GetKakaoMapCard() {
                             }, // 마커이미지의 크기입니다
                         }}
                         title={position.cityName} // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다.
-                        clickable={true} // 마커를 클릭했을 때 지도의 클릭 이벤트가 발생하지 않도록 설정합니다.
+                        clickable={true} // 마커를 클릭했을 때 지도의 클릭 이벤트가 발생하지 않도록 설정합니다
                         onClick={(marker) => setCityName(marker.getTitle())}
                     />
                 ))}
