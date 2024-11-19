@@ -1,3 +1,6 @@
+# React TypeScript Vite
+## 프론트엔드 프로젝트 캠프 프로젝트 01
+ 
 ### 프로젝트 생성 및 필수 라이브러리 설치 방법
 
 1. 프로젝트 생성 : `npm create vite@latest`
